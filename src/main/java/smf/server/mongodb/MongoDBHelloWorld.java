@@ -30,7 +30,7 @@ public class MongoDBHelloWorld {
             //
             // Gets a single document / object from this collection.
             //
-            DBObject document = collection.findOne();
+            DBObject document = collection.findOne("01002");
 
             //
             // Prints out the document.
